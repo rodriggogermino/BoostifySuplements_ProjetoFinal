@@ -1,3 +1,5 @@
+
+
 * {
     padding: 0;
     margin: 0;
@@ -39,6 +41,18 @@ header {
     color: #EF9149;
 }
 
+.searchBar{
+    width: 100%;
+    padding: 0.5em;
+    border: 2px solid #EF9149;
+    border-radius: 0.7em;
+    background-color: #0F0D1A;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
 .loginNav {
     border: 2px solid #EF9149;
     border-radius: 0.5em;
@@ -49,3 +63,138 @@ header {
     width: 100%;
     object-fit: cover;
 }
+
+.hrSlideshow {
+    border: 4px solid#EF9149;
+    border-radius: 1em;
+    width: 30%;
+    margin: auto;
+}
+
+.divHomepage {
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.h2Objetivos {
+    padding: 1em;
+    color: white;
+}
+
+.receitaHomepage {
+    width: 40%;
+    margin: 1em;
+    padding: 1em;
+    text-align: left;
+    border: 2px solid #EF9149;
+    border-radius: 0.7em;
+    display: inline-block;
+    min-width: 240px;
+}
+
+footer {
+    width: 100%;
+    margin-top: 5em;
+    box-shadow:  0 0.5px 20px #EF9149;
+}
+
+footer h4 {
+    color: white;
+    text-align: center;
+    padding: 2em;
+}
+
+.emptyCart {
+    padding: 2em;
+    color: white;
+}
+
+.emptyCart h1 {
+    font-size: 50px;
+}
+
+.login {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.loginForm {
+    width: 35%;
+    text-align: center;
+    color: white;
+}
+
+.loginForm h1 {
+    padding: 1em;
+}
+
+.loginForm form {
+
+}
+
+.loginForm label {
+    font-size: 20px;
+}
+
+.loginForm form input {
+    border: 2px solid #EF9149;
+    border-radius: 0.5em;
+    background-color: transparent;
+    padding: 1em;
+    width: 85%;
+}
+
+.submitLogin {
+    border: 2px solid #EF9149;
+    background-color: #EF9149;
+    width: 85%;;
+    border-radius: 0.5em;
+    padding: 1em;
+}
+
+.loginImage {
+    width: 75%;
+    background-image: url(images/imgLoginbg.png);
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 600px) {
+    .searchBar {
+        display: none;
+    }
+    
+    .loginForm {
+        width: 100%;
+    }
+
+    .loginForm form{
+        width: 100%;
+    }
+
+    .loginImage {
+        display: none;
+    }
+
+    .slideshow {
+        display: none;
+    }
+
+    .hrSlideshow {
+        display: none;
+    }
+
+    .navList {
+        display: none;
+    }
+
+    .receitaHomepage {
+        width: 80%;
+    }
+
+  }
